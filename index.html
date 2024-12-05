@@ -3,20 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
-    <title>Dasmoto's Arts & Crafts</title>
+    <title>WeHelp Bootcamp Application</title>
+    <link rel="stylesheet" href="./resources/css/index.css">
 </head>
 <body>
-    <h1 id='heading'>Dasmoto's Arts & Crafts</p>
-    <h4 id="product">Brushes</h4>
-    <h6 id="description">Hacksaw Brushes</h6>
-    <p>Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes. <section>Starting at $3.00 / brush.</section></p>
-    <h4 id='product'>Frames</h4>
-    <h6 id="description">Art Frames (assorted)</h6>
-    <p>Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <section>Starting at $2.00 / frame.</section>
-    </p>
-    <h4 id="'product">Paint</h4>
-    <h6 id="description">Clean Finnish Paint</h6>
-    <p>Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork. <section>Starting at $5.00 / tube.</section></p>
+    <div class="header">
+        <h1>Austin's Application for WeHelp Bootcamp</h1>
+    </div>
+
+    <div class="summary">
+        <h3>個人簡介和申請動機</h3>
+        <p>您好，我的名字是廖祥廷。我是一名有六年經驗的中英口譯員，大學時主修心理學。過去幾年以自由口譯員的身份接案，主要承接各公司跨國會議或政府部門的案子。
+            近年最熱門的話題無非是AI，各行各業或多或少都會提到如何「數位轉型」、「導入AI提升生產力」。有別於前幾年的元宇宙，ChatGPT等大型語言模組討論度更高、在日常生活或是工作上也更有實用性。
+            以我自己為例，完成口譯需要花相當多的時間做資料搜集和準備工作，ChatGPT這類的生成式AI能顯著地減少資料準備和校稿時間。因此，相較於「自己可能被取代」這種恐懼的心理，我對於AI更多的是好奇，以及進一步理解科技的動力。
+            在嘗試將AI導入自己工作的過程中，我學會使用Python做一些簡單的自動化功能，也接觸到更專業的技術，例如如何使用RAG（Retrieval-Augmented Generation）來「客製化」LLM。這時，我萌生了一個想法：學習設計一個口譯員專用的app。一開始不用做得太複雜，只需設計一個簡單介面，並套用OpenAI或Claude的API即可。所以，今年六月開始，我利用空閒時間往這個方向著手學習。但隨著學到的新知識越來越多，我也發現自己在背景知識方面仍有許多不足。一開始的新鮮感逐漸消退，原因是缺乏明確的學習方向。
+            雖然網路上有琳琅滿目的資源可以學習，尤其是入門等級的內容，但也可能因此不小心陷入「tutorial hell」，變成永無止境、漫無目的的單方面資訊接收。這樣不僅難以取得實際進步，也難以學到真實業界的工作流程或常用的tech stack。
+            我希望能透過參加WeHelp Bootcamp，以更有效率、有系統的方法學習軟體工程，並希望順利結業後，能運用我的口譯專業知識，嘗試設計一個專用的口譯app。未來若有機會，我也希望能從事軟體開發相關的工作。
+        </p>
+    </div>
+    <br>
+    <div class="experience">
+        <h3>曾經做過哪些軟體工程技術相關的學習？若有作品請分享給我們。</h3>
+        <p>過去幾個月，我主要透過觀看YouTube學習技術，例如像freeCodeCamp這樣的教學型頻道，也有一些工程師分享業界經驗的頻道。一開始我的目標是學習處理資料和研究AI，因此選擇了Python作為主要語言。除了YouTube，我也完成了Codecademy上有關資料科學的免費課程。
+            
+            因為僅靠觀看影片的學習效果有限，我會透過實作小型專案來練習。例如，我嘗試使用Keras進行文本分析，並完成了一個簡單的專案：
+            https://colab.research.google.com/drive/1Vdi3--YhoqELE93Lu4jUDvUYyXzBon5h#scrollTo=xGAFdN1jFNEl
+            在過程中，當遇到無法解決的問題時，我會利用ChatGPT尋求提示，並對產生的程式碼進行檢查與修正，這讓我學到很多實際解決問題的方法。
+            學習的過程中，我不可避免地接觸到一些進階的計算機科學概念，因此我參考了OSSU上的CS Roadmap來進一步加強基礎知識：
+            https://github.com/ossu/computer-science?tab=readme-ov-file#prerequisites
+            不過，完成其中的課程需要大量時間，對於我目前的學習階段幫助有限，所以暫時停止，未來有時間會繼續補足相關知識。
+            
+            
+            最後，為了準備這次的Bootcamp，我也開始在The Odin Project學習前端相關技術。截至十一月中，我已完成Foundations部分的內容。
+            由於對軟體工程的工作流程不熟悉，我的自學安排比較雜亂且缺乏方向，因此希望能在Bootcamp中學習到主流的技術與工作流程，為未來的發展打下更穩固的基礎。
+            </p>
+    </div>
+    <br>
+    <div class="time">
+        <h3>如果參與這個訓練，會怎麼安排學習時間？</h3>
+        <p>目前我的工作模式是自由接案，如果申請成功，我計畫將明年前半年的時間清空，僅保留少數幾個需要處理的專案，確保有充足的時間專注於課程。我預計每天投入六到八小時的學習時間，並養成固定的學習與練習習慣。
+            相比於僅利用週末長時間苦讀，我認為每天穩定地學習更容易維持，也能帶來更持久的學習效果。這樣的安排可以幫助我更有效地吸收課程內容，同時保持穩定的進步節奏，為順利完成訓練做好充分準備。
+        </p>
+    </div>
+    <br>
+    <div class="commitment">
+        <h3>軟體技術日新月異，如何確定選擇投入的領域是正確有回報的？</h3>
+        <p>之前參加了一場Google的講座，其中一位工程師開玩笑說：「在AI興起後，軟體工程師才是真的站在『海嘯第一排』，面臨被取代的風險。」雖然這句話帶有誇張成分，但也反映出如今的職場環境：如果無法與時俱進，就很可能被市場淘汰。因此，我認為最好的策略是關注產業動態、保持學習動力，並避免只會套用現成的framework。只有持續學習並深入理解技術背後的原理，才能在快速變化的軟體業界中站穩腳步。
+            此外，像Stack Overflow每年發佈的Developer Survey，以及各大社交平台上的業界討論，都是了解行業趨勢的良好參考來源。
+            至於問題本身，我認為「如何確定選擇投入的領域是正確有回報的」這個問題可能本質上不太精準。因為只要投入足夠的時間與精力，幾乎任何領域都會有回報。然而，科技的發展具有時效性，今天的熱門領域可能在五年後就不再受關注，而未來的主流技術很可能現在還沒有出現。因此，持續學習新知識、深入了解各產業的需求和痛點，是更有效的方式來找到適合投入的方向。
+            </p>
+    </div>
+    <br>
+    <div class="difficulties">
+        <h3>請描述一件產生明顯負面情緒的經歷，如何處理該情緒？</h3>
+        <p>口譯員工作中最常碰到的困難之一，就是取得充分的準備資料。許多主辦單位或講者對於事前準備的重要性缺乏了解，因此往往不願意提前提供資料，甚至在會議開始前才臨時給出簡報。我曾多次遇到講者上台前才提供簡報的情況，導致準備時間不足，表現未達到理想水準。當時確實感到沮喪，特別是當聽眾對成果不滿意時，矛頭通常只會指向口譯員。
+            面對這樣的情況，我的方式是保持冷靜，並專注在自己能控制的範圍內做好準備。例如，我會儘量與主辦單位溝通，要求更早提供資料；如果無法如願，我就靠自己的努力蒐集相關資訊，確保有一定的基礎。此外，我也學會調整心態，告訴自己，只要在能力範圍內全力以赴，便無愧於心，至於那些無法控制的外在因素，不需要過於執著。
+            這些經歷讓我更體會到準備的重要性，也促使我開始學習寫程式，希望能透過自動化工具降低外在因素對工作的影響，讓口譯的準備工作更加高效和有保障。
+        </p>
+    </div>
+    <br>
+    <div class="tech">
+        <h3>關於這份申請網頁，分享一個開發時的技術心得。</h3>
+    </div>
+    <br>
+    <div class="social">
+        <h3>如何看待自身工作和整個社會群體的連結關係？</h3>
+        <p>前陣子，台灣作家楊双子與譯者金翎憑藉《臺灣漫遊錄》獲得美國國家圖書獎的翻譯文學獎。他們的得獎感言讓我深受啟發。楊双子表示：「我書寫，是為了回答台灣人究竟是什麼人。而我持續的書寫過去，是想要迎向更好的未來。」譯者金翎也提到，台灣是華語世界中少數擁有言論自由的地方，是一個多元的社會，她希望透過翻譯讓更多人看到台灣的作品。
+            我認為台灣有許多值得與世界分享的好故事，也能透過國際交流為世界作出貢獻。我希望能在這個過程中盡一份力。作為一名口譯員，我深感自己肩負著「人與人之間溝通橋梁」的責任，這份工作讓我不僅促進了不同文化間的理解，也在一定程度上增進了國際間的合作與交流。而這份「橋梁」的價值，是很難被機器取代的。
+            另一方面，我也發現寫程式與翻譯有著相似之處。翻譯是將語言轉化為能被不同文化理解的形式，而寫程式則是將構想轉化為現實，透過程式碼實現創意，並讓更多人受惠。我認為這是一件既有意義又具挑戰性的事情，也希望未來能透過軟體開發繼續為社會做出貢獻。
+            </p>
+    </div>
+    <br>
+    <div class="question">
+        <h3>其他想要對我們說的事情？</h3>
+        <p>我想說的其實是一個問題。紐約時報最近有一篇文章(Should You Still Learn to Code in an A.I. World?)，討論在2024年的環境下，bootcamp還有沒有存在價值。國外的bootcamp這幾年就業率表現很差。WeHelp的就業表現數字，儘管在這幾年都蠻出色的，除了台灣就業環境不同這些大環境的因素，有什麼其他原因嗎？</p>
+    </div>
 </body>
 </html>
